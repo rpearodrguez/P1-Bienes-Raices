@@ -72,7 +72,13 @@ h4{
 }
 
 /* Header*/
-.site-header-inicio{
+.site-header-nosotros{
+  background-color: #333333;
+  background-position: center;
+  background-size: cover;
+  padding: 0 2rem 2rem 2rem;
+}
+.site-header.inicio{
   background: url(../img/header.jpg);
   background-position: center;
   background-size: cover;
@@ -274,4 +280,30 @@ h4{
   display: flex;
   justify-content: space-between;
   color: white;
+}
+
+/*Paginas Internas*/
+/*.contenido-nosotros{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagen-nosotros{
+  flex-basis: 50%;
+}
+.texto-nosotros{
+  flex-basis: 50%;
+  padding: 2rem;
+}*/
+.contenido-nosotros{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 2rem;
+}
+
+.texto-nosotros blockquote{
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 0;
+  padding: 3rem 0;
 }
